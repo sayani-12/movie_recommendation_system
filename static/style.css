@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Merriweather:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+nav {
+    overflow: hidden;
+    background-color: rgb(224, 100, 100);
+    line-height: 20px;
+}
+
+nav a {
+    font-family: 'Shadows Into Light', cursive;
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 18px 20px;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    font-family: 'Shadows Into Light', cursive;
+    background-color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+nav form {
+    float: right;
+    margin-top: 15px;
+}
+
+.title {
+    font-family: 'Shadows Into Light', cursive;
+    color: black;
+    text-align: center;
+}
+body {
+    background-color: lavenderblush;
+    margin: 0;
+}
+
+header {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rosybrown;
+}
+
+.rating {
+    background-color: rgb(226, 43, 98);
+    color: white;
+    padding: 0.25rem;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.search {
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+    border: 2px solid black;
+    margin-right: 15px;
+    border-radius: 30px;
+    font-size: 1rem;
+    color: white;
+}
+
+.search:focus {
+    outline: 0;
+    background-color: lightcoral;
+}
+
+.search:placeholder {
+    color: aqua;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.movie {
+    background-color: rosybrown;
+    width: 300px;
+    margin: 1rem;
+    box-shadow: 2px 4px 5px black;
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+}
+.button {
+    font-size: large;
+    background-color: coral;
+}
+.movie img {
+    width: 100%;
+}
+
+.movie-info h3{
+    margin-top: 0;
+    color: black;
+}
+
+.movie-info {
+    background-color: rosybrown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px;
+}
+
+.movie:hover {
+    transform: scale(1.1);
+}
+.button {
+    height: 40px;
+    width: 124px;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    background-color: lightcoral;
+    border: 2px solid pink;
+    border-radius: 5px;
+    font-family: 'Zen Loop', cursive;
+}
+
+.overview {
+    margin: 9px;
+    font-family: 'Zen Loop', cursive;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: purple;
+    border-radius: 2px solid black;
+    color: white;
+    border-radius: 5px;
+}

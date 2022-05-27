@@ -1,0 +1,97 @@
+*{  margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+nav {
+    overflow: hidden;
+    background-color: lightcoral;
+    line-height: 20px;
+}
+
+nav a {
+    font-family: 'Shadows Into Light', cursive;
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 18px 20px;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    font-family: 'Shadows Into Light', cursive;
+    background-color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+
+main {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.movie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.movie img {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    box-shadow: 2px 4px 5px black;
+}
+
+.title {
+    font-family: 'Zen Loop', cursive;
+    text-align: center;
+    font-weight: bold;
+}
+
+.movie-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Zen Loop', cursive;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 700px;
+}
+
+.overview {
+    margin: 20px;
+}
+
+.movie_credits img{
+    display: flex;
+    width: 300px;
+    box-shadow: 2px 4px 5px black;
+    margin: 10px;
+    
+}
+
+.movie_credits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.poster {
+    margin-left: 20px;
+    text-align: center;
+}
